@@ -217,9 +217,9 @@ void NuclearInteractionCandidateIdentifier::produce(edm::Event &event, const edm
 			if (highestTrackSig > maxTrack3DipSig) isNI = false;
 		}	
 
-		if(!event.isRealData()){
-		  std::cout<<"not real data"<<std::endl;
-		}
+//		if(!event.isRealData()){
+//			TODO: add truth matching
+//		}
 		
 		
 		if(isNI) {

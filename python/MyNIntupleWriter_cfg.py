@@ -30,7 +30,8 @@ process.source = cms.Source ("PoolSource",
 nuclearInteractionIdentifier0 = nuclearInteractionCandIdentifier.clone(
 	selection = cms.PSet(
 		nuclearInteractionCandIdentifier.selection,
-		position = cms.vdouble(2.65, 3.22, 3.52, 5.11, 6.64, 8.01, 9.53, 10.64),
+#		position = cms.vdouble(2.65, 3.22, 3.52, 5.11, 6.64, 8.01, 9.53, 10.64),
+		position = cms.vdouble(2.17, 2.25, 2.781, 3.014, 6.616, 6.898, 10.729, 11.016, 15.836, 16.125),
 		minNctau = cms.double(2.0)
 	)
 )
