@@ -15,7 +15,7 @@ from RecoBTag.SecondaryVertex.trackRefitter_cfi import *
 processName = "RECODEBUG"
 process = cms.Process(processName)
 
-process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(10) )
+process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(100) )
 
 process.source = cms.Source ("PoolSource",
     fileNames=cms.untracked.vstring(
